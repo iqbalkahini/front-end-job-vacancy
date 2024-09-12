@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  width: 500px;
+  background-color: #fff;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.form {
+  height: 300px;
+  padding-top: 1.5rem;
+}
+
+.id-card,
+.pwd {
+  text-align: left;
+}
+
+.id-card input,
+.pwd input {
+  width: 100%;
+  height: 50%;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #fff;
+  color: black;
+  padding: 0 5px;
+}
+
+.id-card input:focus,
+.pwd input:focus {
+  box-shadow: 1px 6px 19px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 6px 19px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 6px 19px -6px rgba(0, 0, 0, 0.75);
+  color: black;
+}
+
+.submit {
+  margin-top: 2rem;
+  width: 100%;
+  height: 25px;
+  padding: 0;
+}
